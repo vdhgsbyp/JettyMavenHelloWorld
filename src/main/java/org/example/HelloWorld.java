@@ -24,7 +24,7 @@ public class HelloWorld extends AbstractHandler
  
     public static void main(String[] args) throws Exception
     {
-        Server server = new Server(8088);
+        Server server = new Server(80);
         server.setHandler(new HelloWorld());
   
         server.start();
